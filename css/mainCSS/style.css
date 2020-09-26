@@ -31,7 +31,7 @@
     position: relative;
     z-index: 10;
     cursor: pointer;
-    margin-left: 40px;
+    margin-left: 60px;
 }
 nav{
     flex:1;
@@ -59,7 +59,7 @@ nav ul li a{
     cursor: pointer;
 }
 .sidebar{
-    width: 155px;
+    width: 140px;
     height: 100vh;
     background: rgba(29,31,58,0.5);
     position: absolute;
@@ -75,13 +75,11 @@ nav ul li a{
     width: 20px;
     display: block;
     margin: 220px auto 0;
-    text-align: center;
-    margin-left: 40px;
-
 }
 .social-links img{
     height: 15px;
     margin-bottom: 30px;
+    text-align: center;
     
 }
 .info-icon{
@@ -89,4 +87,20 @@ nav ul li a{
     position: absolute;
     left: 3%;
     bottom: 30px;
+}
+.info-icon{
+    width: 20px;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+.msg-container{
+    font-size: 200%;
+    color: #fff;
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    transform: translateY(-50%);
 }
