@@ -8,14 +8,16 @@ body{
 
 #viewer-text-box{
     border-style: solid;
+    margin: 10px auto;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
     border: 4mm ridge rgba(170, 50, 220, .6);
-    width: fit-content;
 }
 
 .stream-box{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10px auto;
     border: 4mm ridge rgba(170, 50, 220, .6);
     width: fit-content;
 }
@@ -100,4 +102,49 @@ nav ul li a{
     left: 50px;
     bottom: 30px;
 }
+
+.Outside-box{
+    width: auto;
+    height: auto;
+    background-color: khaki;
+    margin-left: 100px;
+
+    /*add flexbox style*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.LI-profile-badge{
+    width:200px;
+    height: 300px;
+    background: grey;
+    margin: 20px;
+    box-sizing: border-box;
+    border: thin;
+}
+
+/*media quaries*/
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (orientation: landscape) {
+    body {
+        background: rgb(145,124,252);
+        background: linear-gradient(180deg, rgba(145,124,252,1) 0%, rgba(252,70,107,1) 100%);
+    }
+  }
 
