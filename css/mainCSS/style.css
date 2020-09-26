@@ -3,13 +3,21 @@ body{
     padding: 0;
     font-family: sans-serif;
     background: rgb(145,124,252);
-background: linear-gradient(180deg, rgba(145,124,252,1) 0%, rgba(252,70,107,1) 100%);
+    background: linear-gradient(180deg, rgba(145,124,252,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+#viewer-text-box{
+    border-style: solid;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    width: fit-content;
 }
 
 .stream-box{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    width: fit-content;
 }
 
 .navbar{
@@ -21,85 +29,75 @@ background: linear-gradient(180deg, rgba(145,124,252,1) 0%, rgba(252,70,107,1) 1
     padding: 0 60xp;
     box-sizing: border-box;
 }
+
 .logo{
     width: 155px;
 }
+
 .logo img{
     width: 30px;
     position: relative;
     z-index: 10;
     cursor: pointer;
-    margin-left: 60px;
+    margin-left: 35px;
 }
+
 nav{
     flex:1;
 }
+
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 60px;  
+    margin-right: 60px;
 }
+
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-size: 14px;
 }
+
 .shell{
     display: flex;
     align-items: center;
     color: #fff;
     font-size: 14px;
 }
+
 .shell img{
     width: 45px;
     margin-left: 14px;
     margin-right: 14px;
     cursor: pointer;
 }
+
 .sidebar{
-    width: 140px;
+    width: 100px;
     height: 100vh;
     background: rgba(29,31,58,0.5);
     position: absolute;
     top: 0;
     left: 0;
 }
+
 .search-icon{
     width: 20px;
     display: block;
     margin: 120px auto 0;
 }
-.social-links{
-    width: 20px;
-    display: block;
-    margin: 220px auto 0;
-}
-.social-links img{
-    height: 15px;
-    margin-bottom: 30px;
-    text-align: center;
-    
-}
+
 .info-icon{
     width: 20px;
     position: absolute;
     left: 3%;
     bottom: 30px;
 }
+
 .info-icon{
     width: 20px;
     position: absolute;
     left: 50px;
     bottom: 30px;
-}
-.msg-container{
-    font-size: 200%;
-    color: #fff;
-    width: 600px;
-    height: 280px;
-    position: absolute;
-    left: 20%;
-    top: 40%;
-    transform: translateY(-50%);
 }
 
