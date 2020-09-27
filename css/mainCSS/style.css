@@ -107,22 +107,22 @@ nav ul li a{
     width: relative;
     height: relative;
     margin-left: 100px;
-    background-color: wheat;
 
     /*add flexbox style*/
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-flow: wrap;
 }
 
 .LI-profile-badge{
-    width: auto;
-    height: auto;
+    height: 300px;
+    width: 300px;
     background: whitesmoke;
-    margin: 20px auto;
+    margin: 90% auto;
     box-sizing: border-box;
-    border: 2mm ridge rgba(170, 50, 220, .6);
+    border: 5mm ridge rgba(170, 50, 220, .6);
+    border-radius: 50%;
 }
 
 /*media quaries*/
