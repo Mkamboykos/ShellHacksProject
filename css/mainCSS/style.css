@@ -7,33 +7,38 @@ body{
 }
 
 #viewer-text-box{
-    border-style: solid;
-    margin: 10px auto;
-    width: 25%;
-    padding: 10px;
+    margin: auto;
+    width: relative;
+    padding: 35px;
     text-align: center;
-    border: 4mm ridge rgba(170, 50, 220, .6);
+    font-size: 60px;
 }
 
 .stream-box{
     display: block;
     margin: 10px auto;
     border: 4mm ridge rgba(170, 50, 220, .6);
-    width: fit-content;
+    width: 800px;
+    height: 800px;
 }
 
 .navbar{
     width: 100%;
-    height: 60px;
-    display: flex;
+    height: 75px;
     align-items: center;
     background: rgba(29,33,61,0.5);
-    padding: 0 60xp;
+    padding: 0, 80px;
     box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
 }
 
 .logo{
-    width: 155px;
+    width: relative;
+    height: relative;
 }
 
 .logo img{
@@ -51,20 +56,23 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 60px;
+    margin-left: 50px;
+    justify-content: space-evenly;
 }
 
 nav ul li a{
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 17px relative;
+    justify-content: space-evenly;
 }
 
 .shell{
     display: flex;
     align-items: center;
     color: #fff;
-    font-size: 14px;
+    position: relative;
+    bottom: -92%;
 }
 
 .shell img{
@@ -81,12 +89,6 @@ nav ul li a{
     position: fixed;
     top: 0;
     left: 0;
-}
-
-.search-icon{
-    width: 20px;
-    display: block;
-    margin: 120px auto 0;
 }
 
 .info-icon{
@@ -119,10 +121,32 @@ nav ul li a{
     height: 300px;
     width: 300px;
     background: whitesmoke;
-    margin: 90% auto;
+    margin: 10% auto;
     box-sizing: border-box;
     border: 5mm ridge rgba(170, 50, 220, .6);
     border-radius: 50%;
+}
+
+.team-text-box{
+    margin: auto;
+    width: relative;
+    padding: 35px;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.team-text-box-under{
+    margin: auto;
+    width: relative;
+    padding: 4px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: 1B1E36;
+}
+
+a:link{
+    text-decoration: none;
 }
 
 /*media quaries*/
