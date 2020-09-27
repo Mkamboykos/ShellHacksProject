@@ -17,7 +17,7 @@ body{
 .stream-box{
     display: block;
     margin: 10px auto;
-    border: 4mm ridge rgba(170, 50, 220, .6);
+    border: 4mm ridge rgba(156, 69, 176);
     width: 650px;
     height: 650px;
 }
@@ -67,28 +67,12 @@ nav ul li a{
     justify-content: space-evenly;
 }
 
-.shell{
-    display: flex;
-    align-items: center;
-    color: #fff;
-    position: relative;
-    bottom: -92%;
-}
-
 .shell img{
-    width: 45px;
-    margin-left: 14px;
-    margin-right: 14px;
-    cursor: pointer;
-}
-
-.sidebar{
-    width: 100px;
-    height: 100vh;
-    background: rgba(29,31,58,0.5);
+    width: 3%;
+    height: auto;
     position: fixed;
-    top: 0;
-    left: 0;
+    right: 20px;
+    bottom: 20px;
 }
 
 .info-icon{
@@ -106,14 +90,15 @@ nav ul li a{
 }
 
 .Outside-box{
-    width: relative;
-    height: relative;
-    margin-left: 100px;
+    width: auto;
+    height: auto;
+    margin: auto;  
+    padding: auto;
 
     /*add flexbox style*/
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-flow: wrap;
 }
 
@@ -123,16 +108,16 @@ nav ul li a{
     background: whitesmoke;
     margin: 10% auto;
     box-sizing: border-box;
-    border: 5mm ridge rgba(170, 50, 220, .6);
+    border: 5mm ridge rgba(156, 69, 176);
     border-radius: 50%;
 }
 
 .team-text-box{
     margin: auto;
-    width: relative;
-    padding: 35px;
+    width: auto;
+    padding: auto;
     text-align: center;
-    font-size: xxx-large;
+    font-size: 40px;
 }
 
 .team-text-box-under{
@@ -361,16 +346,12 @@ p {
     }
   }
 
-  @media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
     body {
         background: rgb(145,124,252);
         background: linear-gradient(180deg, rgba(145,124,252,1) 0%, rgba(252,70,107,1) 100%);
     }
-  }
-
-
-
-
+}
 
 .btn {
   border: 3px #fff solid;
@@ -394,7 +375,6 @@ p {
   height: 500px; 
 }
  
-
 #thanks {
   background-color: #f44336;
   color: white;
@@ -406,13 +386,36 @@ p {
 }
 
 #thanksmail{
-    position:relative;
-    left:80px; 
-    top:2px;
+  position: relative;
+  left: 80px; 
+  top: 2px;
 }
 
+.toolsUsedPictureFormat{
+  height: 300px;
+  width: 300px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 25px;
+  text-align: center;
+}
 
+.inside-box{
+  display: block;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  padding: auto;
+  border: 4mm ridge rgba(156, 69, 176);
+  text-align: center;
+}
 
-
+.tools-text-box{
+  margin: auto;
+  width: auto;
+  padding: auto;
+  text-align: center;
+  font-size: 45px;
+}
 
 
