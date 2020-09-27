@@ -18,8 +18,8 @@ body{
     display: block;
     margin: 10px auto;
     border: 4mm ridge rgba(170, 50, 220, .6);
-    width: 800px;
-    height: 800px;
+    width: 650px;
+    height: 650px;
 }
 
 .navbar{
@@ -410,7 +410,7 @@ p {
     left:80px; 
     top:2px;
 }
-}
+
 
 
 
