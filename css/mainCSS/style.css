@@ -389,6 +389,8 @@ p {
   position: relative;
   left: 80px; 
   top: 2px;
+    margin-left: 150px; 
+    font-size: xx-large;
 }
 
 .toolsUsedPictureFormat{
@@ -417,5 +419,7 @@ p {
   text-align: center;
   font-size: 45px;
 }
+
+
 
 
