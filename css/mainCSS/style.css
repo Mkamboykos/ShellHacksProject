@@ -406,10 +406,11 @@ p {
 }
 
 #thanksmail{
-    position:relative;
-    left:80px; 
-    top:2px;
+    margin-left: 150px; 
+    font-size: xx-large;
 }
+
+
 
 
 
